@@ -1,5 +1,6 @@
 aiofiles
 aiohttp
+aiohttp_socks
 aioshutil
 bs4
 httpx
