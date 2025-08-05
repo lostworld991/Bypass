@@ -1,15 +1,13 @@
-FROM mysterysd/wzmlx:heroku
+FROM python:3.10-slim
+
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/app
+
 RUN chmod 777 /usr/src/app
 
-# Install Node.js 24.x
-RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
-    && apt-get install -y nodejs \
-    && node -v && npm -v
-
-# Copy project files and install Python deps
 COPY . .
-RUN pip3 install --no-cache-dir -r requirements.txt
+
+RUN pip install --no-cache-dir -r requirements.txt
 
 CMD ["bash", "start.sh"]
