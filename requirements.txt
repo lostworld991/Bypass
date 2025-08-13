@@ -2,6 +2,7 @@ aiofiles
 aiohttp
 aioshutil
 bs4
+cryptography
 gunicorn
 flask
 motor
