@@ -2,10 +2,10 @@ aiofiles
 aiohttp
 aiohttp_socks
 aioshutil
-aiosqlite
 bs4
 gunicorn
 flask
+lmdb
 pymongo
 psutil
 python-dotenv
