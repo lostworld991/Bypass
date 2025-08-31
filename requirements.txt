@@ -5,7 +5,7 @@ aioshutil
 bs4
 gunicorn
 flask
-lmdb
+plyvel
 pymongo
 psutil
 python-dotenv
