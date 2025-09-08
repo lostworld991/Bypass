@@ -3,6 +3,7 @@ aiohttp
 aioshutil
 bs4
 httpx
+cryptography
 gunicorn
 flask
 pymongo
