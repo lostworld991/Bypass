@@ -3,6 +3,7 @@ aiohttp
 aioshutil
 bs4
 httpx
+curl_cffi
 cryptography
 gunicorn
 flask
