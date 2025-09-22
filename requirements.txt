@@ -12,6 +12,7 @@ psutil
 python-dotenv
 pycryptodome
 pyrofork
+requests
 telegraph
 tgcrypto
 urllib3==1.26
