@@ -2,12 +2,12 @@ aiofiles
 aiohttp
 aioshutil
 bs4
-httpx
 curl_cffi
 cryptography
 gunicorn
 flask
 pymongo
+plyvel
 psutil
 python-dotenv
 pycryptodome
