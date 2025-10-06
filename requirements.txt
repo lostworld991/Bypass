@@ -15,5 +15,6 @@ kurigram
 requests
 telegraph
 tgcrypto
+tls-client
 urllib3==1.26
 uvloop
