@@ -11,7 +11,7 @@ psutil
 python-dotenv
 pycryptodome
 pytz
-pyrofork
+kurigram
 requests
 telegraph
 tgcrypto
