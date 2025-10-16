@@ -15,15 +15,9 @@ WORKDIR /usr/src/app
 
 RUN chmod 777 /usr/src/app
 
-# Copy source files
 COPY . .
 
-# Install Python dependencies
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Give execute permission for start.sh (optional if already executable)
-RUN chmod +x start.sh
-
-# Run the startup script
 CMD ["bash", "start.sh"]
