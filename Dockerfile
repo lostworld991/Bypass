@@ -1,15 +1,17 @@
 FROM python:3.13-slim
 
-# Install system dependencies required for building tgcrypto and other C extensions
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         git \
         build-essential \
         gcc \
+        g++ \
         libffi-dev \
         libssl-dev \
         python3-dev \
+        libleveldb-dev \
     && rm -rf /var/lib/apt/lists/*
+
 
 WORKDIR /usr/src/app
 
