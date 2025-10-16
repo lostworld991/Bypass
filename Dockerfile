@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM python:3.13-slim
 
 # Install system dependencies required for building tgcrypto and other C extensions
 RUN apt-get update && \
