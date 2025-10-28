@@ -3,7 +3,6 @@ aiohttp
 aiohttp_socks
 aioshutil
 bs4
-httpx
 gunicorn
 flask
 lxml
@@ -14,7 +13,6 @@ python-dotenv
 pycryptodome
 pytz
 pyrofork
-PyExecJS
 requests
 telegraph
 tgcrypto
