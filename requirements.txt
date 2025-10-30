@@ -3,6 +3,7 @@ aiohttp
 aiohttp_socks
 aioshutil
 bs4
+curl_cffi
 gunicorn
 flask
 lxml
