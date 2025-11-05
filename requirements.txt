@@ -9,6 +9,7 @@ psutil
 python-dotenv
 pycryptodome
 pytz
+plyvel
 kurigram
 requests
 telegraph
