@@ -18,3 +18,4 @@ telegraph
 tgcrypto
 urllib3>=2.0.6
 uvloop
+yt-dlp
