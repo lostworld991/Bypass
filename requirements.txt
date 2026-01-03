@@ -17,5 +17,5 @@ requests
 telegraph
 tgcrypto
 urllib3>=2.0.6
-uvloop
+uvloop==0.21.0
 yt-dlp
