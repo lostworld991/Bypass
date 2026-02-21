@@ -11,6 +11,7 @@ pymongo
 plyvel
 psutil
 python-dotenv
+python-socketio
 pycryptodome
 git+https://github.com/KurimuzonAkuma/kurigram.git@dev
 requests
