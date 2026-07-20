@@ -7,6 +7,7 @@ curl_cffi
 cryptography
 gunicorn
 flask
+matplotlib
 pymongo
 plyvel
 psutil
