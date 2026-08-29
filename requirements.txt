@@ -2,7 +2,6 @@ aiofiles
 aiohttp
 aioshutil
 bs4
-captcha
 curl_cffi
 cryptography
 gunicorn
@@ -14,10 +13,9 @@ psutil
 python-dotenv
 python-socketio
 pycryptodome
-git+https://github.com/KurimuzonAkuma/kurigram.git@dev
 requests
 telegraph
-tgcrypto
 urllib3>=2.0.6
 uvloop==0.21.0
 yt-dlp
+wzgram
